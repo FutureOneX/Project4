@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "merriweather";
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+/*-----------header-----------*/
+
+nav ul { 
+    list-style: none;
+    font-family: "lato";
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 27.37px 17.9px 102.41px ;
+}
+nav ul li :nth-of-type(3){
+    padding-right: 14.2px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 19.2px;
+}
+
+/*------MAIN------*/
+
+section{
+    font-family: "merriweather";
+}
+.left{
+    display: inline-block;
+}
+.left h1{
+    font-size: 48px;
+    color: #000;
+    font-weight: 700px;
+    line-height: 38.4px;
+    padding-bottom: 19.73px;
+    width: 474.8px;
+    height: 120px;
+}
+.left p{
+    font-size: 19.2px;
+    width: 471px;
+    height: 100px;
+}
+.left img{
+    width: 374.8px;
+    height: 502.px;
+}
